@@ -10,3 +10,5 @@
 - Installed Splunk Universal Forwarder on Windows host
 - Configured forwarder to send data to local Splunk indexer (localhost:9997)
 - Enabled collection of Windows Security Event Logs
+- Verified Windows Security Event Logs successfully ingesting into Splunk
+- Confirmed data flow using SPL search for WinEventLog:Security
