@@ -4,3 +4,4 @@
 - Verified license status (500 MB/day free trial)
 - Confirmed local server configuration via Server settings
 - Captured and uploaded setup verification screenshots
+- Downloaded Splunk Universal Forwarder for Windows (64-bit)
