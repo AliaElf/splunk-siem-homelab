@@ -12,3 +12,8 @@
 - Enabled collection of Windows Security Event Logs
 - Verified Windows Security Event Logs successfully ingesting into Splunk
 - Confirmed data flow using SPL search for WinEventLog:Security
+
+### Phase 3 – Detection Engineering (In Progress)
+- Created detection query for Windows failed logon events (Event ID 4625)
+- Generated intentional failed authentication attempts on Windows host to validate log ingestion
+- Confirmed failed logon events were successfully indexed in Splunk
