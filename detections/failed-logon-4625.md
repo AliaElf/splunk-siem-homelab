@@ -13,3 +13,7 @@ Detect failed authentication attempts on a Windows host to identify potential br
 index=* sourcetype="WinEventLog:Security" EventCode=4625
 | stats count by Account_Name, IpAddress, Failure_Reason
 | sort - count
+
+## Evidence
+Screenshots of the detection query and results are available in the `/screenshots` directory.
+
