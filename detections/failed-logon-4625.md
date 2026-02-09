@@ -18,3 +18,15 @@ index=* sourcetype="WinEventLog:Security" EventCode=4625
 ## Evidence
 Screenshots of the detection query and results are available in the `/screenshots` directory.
 
+## Alert Configuration
+A scheduled alert was created in Splunk to detect Windows failed logon events (Event ID 4625).
+
+- Alert Type: Scheduled
+- Schedule: Every 5 minutes (cron)
+- Time Range: Last 15 minutes
+- Trigger Condition: Number of results > 0
+- Trigger Mode: Once
+- Severity: Medium
+- Permissions: Shared in App
+
+The alert was successfully saved and enabled.
