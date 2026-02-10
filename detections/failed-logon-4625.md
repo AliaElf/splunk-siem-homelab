@@ -30,3 +30,7 @@ A scheduled alert was created in Splunk to detect Windows failed logon events (E
 - Permissions: Shared in App
 
 The alert was successfully saved and enabled.
+
+## Validation
+This detection was validated by generating intentional failed login attempts on the Windows host.  
+Event ID 4625 logs were successfully ingested, detected, and triggered a scheduled alert in Splunk.
