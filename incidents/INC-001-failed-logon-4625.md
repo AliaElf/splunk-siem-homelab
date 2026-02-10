@@ -30,7 +30,6 @@ A Splunk alert triggered for Windows Security Event ID 4625 (failed logon). Init
 ## Evidence
 See screenshots in `/screenshots`:
 - `-inc-001-triggered-alert.jpeg`
-- `--inc-001-alert-results.jpeg`
 
 ## Future Improvements
 - Tune alert to trigger only when multiple failed logons occur within a short window (reduce noise)
