@@ -22,8 +22,8 @@ Splunk Enterprise was installed and configured on a Windows host. License status
 📄 Notes:  
 - [Phase 1 Setup Notes](notes/README.md)
 
-📸 Evidence:  
-- Initial setup screenshots available in `/screenshots`
+📸 Evidence:
+- [SIEM Setup Screenshots](screenshots)
 
 ---
 
@@ -33,6 +33,9 @@ Windows Security Event Logs were forwarded to Splunk using the Splunk Universal 
 📄 Notes:  
 - [Log Ingestion Notes](notes/README.md)
 
+📸 Evidence:
+- [Log Ingestion Screenshots](screenshots)
+
 ---
 
 ### Phase 3 – Detection & Alerting
@@ -41,8 +44,9 @@ A detection was implemented for Windows failed logon activity using Event ID 462
 📄 Detection:  
 - [Failed Logon Detection (Event ID 4625)](detections/failed-logon-4625.md)
 
-📸 Evidence:  
-- Alert configuration and results screenshots in `/screenshots`
+📸 Evidence:
+- [Alert Configuration & Results Screenshots](screenshots)
+
 
 ---
 
@@ -51,6 +55,9 @@ The triggered alert was triaged by reviewing event context and correlating faile
 
 📄 Incident Report:  
 - [INC-001 – Failed Windows Logon Alert](incidents/INC-001-failed-logon-4625.md)
+
+📸 Evidence:
+- [Triggered Alert & Event Correlation Screenshots](screenshots)
 
 ---
 
