@@ -25,3 +25,11 @@
 - Generated intentional failed login attempts again on the Windows host 
 - Set alert trigger conditions, severity, and scheduling
 - Confirmed the alert triggered and reviewed the resulting events
+
+---
+
+### Phase 4 – Alert Triage & Incident Response
+- Reviewed triggered alert for Event ID 4625 in Splunk
+- Performed triage and documented findings
+- Classified alert as false positive (intentional lab testing)
+- Created incident report INC-001 with supporting evidence
