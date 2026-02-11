@@ -1,4 +1,4 @@
-# Splunk SIEM Home Lab – Windows Failed Logon Detection
+# Splunk SIEM Setup & Windows Failed Logon Detection
 
 This project demonstrates an end-to-end SIEM workflow using Splunk, from log ingestion through detection, alerting, triage, and incident response.
 
