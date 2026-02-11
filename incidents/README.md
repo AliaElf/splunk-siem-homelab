@@ -50,6 +50,4 @@ Overall impact was assessed as low.
 
 ## Evidence
 
-See screenshots in `/screenshots`:
-- `inc-001-triggered-alert.jpeg`
-- `inc-001-alert-results.jpeg`
+- [View screenshots 16-17](screenshots)
