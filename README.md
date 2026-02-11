@@ -59,6 +59,9 @@ The triggered alert was triaged by reviewing event context and correlating faile
 📄 Incident Report:  
 - [INC-001 – Failed Windows Logon Alert](incidents/INC-001-failed-logon-4625.md)
 
+📄 Notes:  
+- [View phase 4 notes](notes/README.md)
+  
 📸 Evidence:
 - [View screenshots 16-18](screenshots)
 
