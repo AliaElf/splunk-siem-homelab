@@ -20,7 +20,7 @@ The goal of this lab was to simulate how a junior SOC analyst would investigate 
 Splunk Enterprise was installed and configured on a Windows host. License status and server settings were verified.
 
 📄 Notes:  
-- [Phase 1 Setup Notes](notes/README.md)
+- [View phase 1 notes](notes/README.md)
 
 📸 Evidence:
 - [View screenshots 01-05](screenshots)
