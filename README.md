@@ -31,7 +31,7 @@ Splunk Enterprise was installed and configured on a Windows host. License status
 Windows Security Event Logs were forwarded to Splunk using the Splunk Universal Forwarder. Log ingestion was validated using SPL searches.
 
 📄 Notes:  
-- [Log Ingestion Notes](notes/README.md)
+- [View phase 2 notes](notes/README.md)
 
 📸 Evidence:
 - [View screenshots 06-10](screenshots)
