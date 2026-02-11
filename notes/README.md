@@ -5,6 +5,9 @@
 - Confirmed local server configuration via Server Settings
 - Captured and uploaded setup verification screenshots
 
+📸 Evidence:
+- [View screenshots 01-05](screenshots)
+  
 ---
 
 ### Phase 2 – Log Ingestion (Splunk Universal Forwarder)
@@ -14,6 +17,9 @@
 - Enabled collection of Windows Security Event Logs
 - Verified Windows Security logs were successfully ingesting into Splunk
 - Confirmed data flow using SPL searches for `WinEventLog:Security`
+
+📸 Evidence:
+- [View screenshots 06-10](screenshots)
 
 ---
 
@@ -26,6 +32,12 @@
 - Set alert trigger conditions, severity, and scheduling
 - Confirmed the alert triggered and reviewed the resulting events
 
+📄 Detection:  
+- [Failed Logon Detection (Event ID 4625)](detections/failed-logon-4625.md)
+  
+📸 Evidence:
+- [View screenshots 11-15](screenshots)
+  
 ---
 
 ### Phase 4 – Alert Triage & Incident Response
@@ -33,3 +45,9 @@
 - Performed triage and documented findings
 - Classified alert as false positive (intentional lab testing)
 - Created incident report INC-001 with supporting evidence
+  
+📄 Incident Report:  
+- [INC-001 – Failed Windows Logon Alert](incidents/INC-001-failed-logon-4625.md)
+  
+📸 Evidence:
+- [View screenshots 16-18](screenshots)
