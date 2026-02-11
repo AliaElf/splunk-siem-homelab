@@ -44,6 +44,9 @@ A detection was implemented for Windows failed logon activity using Event ID 462
 📄 Detection:  
 - [Failed Logon Detection (Event ID 4625)](detections/failed-logon-4625.md)
 
+📄 Notes:  
+- [View phase 3 notes](notes/README.md)
+  
 📸 Evidence:
 - [View screenshots 11-15](screenshots)
 
